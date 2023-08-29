@@ -11,4 +11,10 @@ Capability | Provided by | Managed ?
 ---------- | ----------- | ---------
 Autoscaling | KEDA | Y
 Ingress
-Service Mesh
+Service Mesh | Istio | Y
+Network Policy | Cilium | Y
+Network Provider | Azure CNI with Cilium | Y
+
+## The surrounding infrastructure
+
+Azure FrontDoor
